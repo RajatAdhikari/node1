@@ -2,10 +2,10 @@ const express = require('express');
 const app = express();
 const port = 7001;
 const data = {
-    Name: 'Sahil',
-    LastName: 'Gupta',
-    Age: 23,
-    city: 'Amritsar'
+    Name: 'Rajat',
+    LastName: 'adhikari',
+    Age: 22,
+    city: 'delhi'
 }
 const jasonData = JSON.stringify(data);
 app.get('/', (req, res) => {
