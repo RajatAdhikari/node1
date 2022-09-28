@@ -1,10 +1,10 @@
 const http = require('http');
-const port = 5000;
+const port = 3445;
 const data = {
-    Name:'Sahil',
-    LastName:'Gupta',
-    Age:23,
-    city:'Amritsar'
+    Name:'Rajat',
+    LastName:'adhikari',
+    Age:22,
+    city:'delhi'
 }
 const jsonData = JSON.stringify(data);
 
